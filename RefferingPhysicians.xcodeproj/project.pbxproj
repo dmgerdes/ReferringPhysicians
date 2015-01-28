@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1765811A798FD200B0E89E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1765801A798FD200B0E89E /* AppDelegate.swift */; };
+		4C1765841A798FD300B0E89E /* RefferingPhysicians.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C1765821A798FD300B0E89E /* RefferingPhysicians.xcdatamodeld */; };
+		4C1765861A798FD300B0E89E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1765851A798FD300B0E89E /* ViewController.swift */; };
+		4C1765891A798FD300B0E89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1765871A798FD300B0E89E /* Main.storyboard */; };
+		4C17658B1A798FD300B0E89E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C17658A1A798FD300B0E89E /* Images.xcassets */; };
+		4C17658E1A798FD300B0E89E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C17658C1A798FD300B0E89E /* LaunchScreen.xib */; };
+		4C17659A1A798FD300B0E89E /* RefferingPhysiciansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1765991A798FD300B0E89E /* RefferingPhysiciansTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C1765941A798FD300B0E89E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C1765731A798FD200B0E89E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C17657A1A798FD200B0E89E;
+			remoteInfo = RefferingPhysicians;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C17657B1A798FD200B0E89E /* RefferingPhysicians.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefferingPhysicians.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C17657F1A798FD200B0E89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1765801A798FD200B0E89E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C1765831A798FD300B0E89E /* RefferingPhysicians.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RefferingPhysicians.xcdatamodel; sourceTree = "<group>"; };
+		4C1765851A798FD300B0E89E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C1765881A798FD300B0E89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C17658A1A798FD300B0E89E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C17658D1A798FD300B0E89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4C1765931A798FD300B0E89E /* RefferingPhysiciansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefferingPhysiciansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1765981A798FD300B0E89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1765991A798FD300B0E89E /* RefferingPhysiciansTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefferingPhysiciansTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C1765781A798FD200B0E89E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1765901A798FD300B0E89E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C1765721A798FD200B0E89E = {
+			isa = PBXGroup;
+			children = (
+				4C17657D1A798FD200B0E89E /* RefferingPhysicians */,
+				4C1765961A798FD300B0E89E /* RefferingPhysiciansTests */,
+				4C17657C1A798FD200B0E89E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C17657C1A798FD200B0E89E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C17657B1A798FD200B0E89E /* RefferingPhysicians.app */,
+				4C1765931A798FD300B0E89E /* RefferingPhysiciansTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C17657D1A798FD200B0E89E /* RefferingPhysicians */ = {
+			isa = PBXGroup;
+			children = (
+				4C1765801A798FD200B0E89E /* AppDelegate.swift */,
+				4C1765851A798FD300B0E89E /* ViewController.swift */,
+				4C1765871A798FD300B0E89E /* Main.storyboard */,
+				4C17658A1A798FD300B0E89E /* Images.xcassets */,
+				4C17658C1A798FD300B0E89E /* LaunchScreen.xib */,
+				4C1765821A798FD300B0E89E /* RefferingPhysicians.xcdatamodeld */,
+				4C17657E1A798FD200B0E89E /* Supporting Files */,
+			);
+			path = RefferingPhysicians;
+			sourceTree = "<group>";
+		};
+		4C17657E1A798FD200B0E89E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C17657F1A798FD200B0E89E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C1765961A798FD300B0E89E /* RefferingPhysiciansTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C1765991A798FD300B0E89E /* RefferingPhysiciansTests.swift */,
+				4C1765971A798FD300B0E89E /* Supporting Files */,
+			);
+			path = RefferingPhysiciansTests;
+			sourceTree = "<group>";
+		};
+		4C1765971A798FD300B0E89E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C1765981A798FD300B0E89E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C17657A1A798FD200B0E89E /* RefferingPhysicians */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C17659D1A798FD300B0E89E /* Build configuration list for PBXNativeTarget "RefferingPhysicians" */;
+			buildPhases = (
+				4C1765771A798FD200B0E89E /* Sources */,
+				4C1765781A798FD200B0E89E /* Frameworks */,
+				4C1765791A798FD200B0E89E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RefferingPhysicians;
+			productName = RefferingPhysicians;
+			productReference = 4C17657B1A798FD200B0E89E /* RefferingPhysicians.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C1765921A798FD300B0E89E /* RefferingPhysiciansTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1765A01A798FD300B0E89E /* Build configuration list for PBXNativeTarget "RefferingPhysiciansTests" */;
+			buildPhases = (
+				4C17658F1A798FD300B0E89E /* Sources */,
+				4C1765901A798FD300B0E89E /* Frameworks */,
+				4C1765911A798FD300B0E89E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1765951A798FD300B0E89E /* PBXTargetDependency */,
+			);
+			name = RefferingPhysiciansTests;
+			productName = RefferingPhysiciansTests;
+			productReference = 4C1765931A798FD300B0E89E /* RefferingPhysiciansTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C1765731A798FD200B0E89E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Virginia Mason Medical Center";
+				TargetAttributes = {
+					4C17657A1A798FD200B0E89E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4C1765921A798FD300B0E89E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4C17657A1A798FD200B0E89E;
+					};
+				};
+			};
+			buildConfigurationList = 4C1765761A798FD200B0E89E /* Build configuration list for PBXProject "RefferingPhysicians" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C1765721A798FD200B0E89E;
+			productRefGroup = 4C17657C1A798FD200B0E89E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C17657A1A798FD200B0E89E /* RefferingPhysicians */,
+				4C1765921A798FD300B0E89E /* RefferingPhysiciansTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C1765791A798FD200B0E89E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1765891A798FD300B0E89E /* Main.storyboard in Resources */,
+				4C17658E1A798FD300B0E89E /* LaunchScreen.xib in Resources */,
+				4C17658B1A798FD300B0E89E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1765911A798FD300B0E89E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C1765771A798FD200B0E89E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1765861A798FD300B0E89E /* ViewController.swift in Sources */,
+				4C1765841A798FD300B0E89E /* RefferingPhysicians.xcdatamodeld in Sources */,
+				4C1765811A798FD200B0E89E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C17658F1A798FD300B0E89E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C17659A1A798FD300B0E89E /* RefferingPhysiciansTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C1765951A798FD300B0E89E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C17657A1A798FD200B0E89E /* RefferingPhysicians */;
+			targetProxy = 4C1765941A798FD300B0E89E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C1765871A798FD300B0E89E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C1765881A798FD300B0E89E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C17658C1A798FD300B0E89E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C17658D1A798FD300B0E89E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C17659B1A798FD300B0E89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C17659C1A798FD300B0E89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C17659E1A798FD300B0E89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RefferingPhysicians/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C17659F1A798FD300B0E89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RefferingPhysicians/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C1765A11A798FD300B0E89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RefferingPhysiciansTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RefferingPhysicians.app/RefferingPhysicians";
+			};
+			name = Debug;
+		};
+		4C1765A21A798FD300B0E89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RefferingPhysiciansTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RefferingPhysicians.app/RefferingPhysicians";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C1765761A798FD200B0E89E /* Build configuration list for PBXProject "RefferingPhysicians" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C17659B1A798FD300B0E89E /* Debug */,
+				4C17659C1A798FD300B0E89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C17659D1A798FD300B0E89E /* Build configuration list for PBXNativeTarget "RefferingPhysicians" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C17659E1A798FD300B0E89E /* Debug */,
+				4C17659F1A798FD300B0E89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C1765A01A798FD300B0E89E /* Build configuration list for PBXNativeTarget "RefferingPhysiciansTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1765A11A798FD300B0E89E /* Debug */,
+				4C1765A21A798FD300B0E89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C1765821A798FD300B0E89E /* RefferingPhysicians.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C1765831A798FD300B0E89E /* RefferingPhysicians.xcdatamodel */,
+			);
+			currentVersion = 4C1765831A798FD300B0E89E /* RefferingPhysicians.xcdatamodel */;
+			path = RefferingPhysicians.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C1765731A798FD200B0E89E /* Project object */;
+}
