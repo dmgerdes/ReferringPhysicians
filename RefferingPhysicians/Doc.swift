@@ -7,11 +7,30 @@
 //
 
 import Foundation
+import UIKit
 
-struct Doc {
-    let name: String
-    let medsvc: String
-    let phone: String
-    let img: String
-    let npi: String
+var physicians = [Doc]()
+
+class Doc:NSObject {
+    var name: String
+    var medsvc: String
+    var phone: String
+    var img: String
+    var npi: String
+    var imgObj:UIImage?
+    var address:String
+    var email: String
+    
+    init (name:String, medsvc:String,phone:String,img:String,npi:String,address:String,email:String) {
+        self.name = name
+        self.medsvc = medsvc
+        self.phone = phone
+        self.img = "https://www.virginiamason.org/images/providers/" + img
+        self.npi = npi
+        self.address = address
+        self.email = email
+        
+        super.init()
+    }
+    
 }

@@ -49,9 +49,9 @@ class ViewController: UIViewController{
             
             //for testing 
             
-            let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-            let mainViewController = storyBoard.instantiateViewControllerWithIdentifier("main") as MainViewController
-            self.presentViewController(mainViewController, animated:true, completion:nil)
+            //let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+            //let mainViewController = storyBoard.instantiateViewControllerWithIdentifier("main") as MainViewController
+            //self.presentViewController(mainViewController, animated:true, completion:nil)
         } else {
             
             var post:NSString = "?limit=1&offset=0&key1=last_name&op1=eq&value1=\(inLastName)&key2=npi&op2=eq&value2=\(inNPI)"
@@ -125,9 +125,9 @@ class ViewController: UIViewController{
                             
                             
                         //load main storyboard
-                        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-                        let mainViewController = storyBoard.instantiateViewControllerWithIdentifier("main") as MainViewController
-                        self.presentViewController(mainViewController, animated:true, completion:nil)
+                        //let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+                        //let mainViewController = storyBoard.instantiateViewControllerWithIdentifier("mainMenuNav") as MainViewController
+                        //self.presentViewController(mainViewController, animated:true, completion:nil)
                     } else {
                         var error_msg:NSString
                             

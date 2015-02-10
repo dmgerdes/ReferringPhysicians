@@ -11,13 +11,20 @@
 		4C1047A41A79D6630043BBE3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1047A31A79D6630043BBE3 /* MainViewController.swift */; };
 		4C1765811A798FD200B0E89E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1765801A798FD200B0E89E /* AppDelegate.swift */; };
 		4C1765841A798FD300B0E89E /* RefferingPhysicians.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C1765821A798FD300B0E89E /* RefferingPhysicians.xcdatamodeld */; };
-		4C1765861A798FD300B0E89E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1765851A798FD300B0E89E /* ViewController.swift */; };
+		4C1765861A798FD300B0E89E /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1765851A798FD300B0E89E /* LogInVC.swift */; };
 		4C1765891A798FD300B0E89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1765871A798FD300B0E89E /* Main.storyboard */; };
 		4C17658B1A798FD300B0E89E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C17658A1A798FD300B0E89E /* Images.xcassets */; };
 		4C17659A1A798FD300B0E89E /* RefferingPhysiciansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1765991A798FD300B0E89E /* RefferingPhysiciansTests.swift */; };
+		4C1807D41A8175FE008A75CF /* DocDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1807D31A8175FE008A75CF /* DocDetailVC.swift */; };
+		4C1807D61A82E3C7008A75CF /* DocTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C1807D51A82E3C7008A75CF /* DocTableCell.xib */; };
 		4C3E72E31A7AE3E900262D66 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E72E21A7AE3E900262D66 /* SessionManager.swift */; };
 		4C3E72E51A7B17F600262D66 /* SearchByNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E72E41A7B17F600262D66 /* SearchByNameVC.swift */; };
 		4C40ED191A7C344700F9B0B7 /* Doc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C40ED181A7C344700F9B0B7 /* Doc.swift */; };
+		4C7A6B9D1A891B0400CB88B8 /* SpecialtyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7A6B9C1A891B0400CB88B8 /* SpecialtyVC.swift */; };
+		4C7A6B9F1A8922E800CB88B8 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7A6B9E1A8922E800CB88B8 /* LocationVC.swift */; };
+		4C7A6BA11A8926A700CB88B8 /* ConditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7A6BA01A8926A700CB88B8 /* ConditionVC.swift */; };
+		4C88642C1A80093B00BA3D0C /* DocTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88642B1A80093B00BA3D0C /* DocTableCell.swift */; };
+		4CC669101A8526FA00024823 /* FavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC6690F1A8526FA00024823 /* FavVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,15 +44,22 @@
 		4C17657F1A798FD200B0E89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C1765801A798FD200B0E89E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C1765831A798FD300B0E89E /* RefferingPhysicians.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RefferingPhysicians.xcdatamodel; sourceTree = "<group>"; };
-		4C1765851A798FD300B0E89E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C1765851A798FD300B0E89E /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
 		4C1765881A798FD300B0E89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C17658A1A798FD300B0E89E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4C1765931A798FD300B0E89E /* RefferingPhysiciansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefferingPhysiciansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1765981A798FD300B0E89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C1765991A798FD300B0E89E /* RefferingPhysiciansTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefferingPhysiciansTests.swift; sourceTree = "<group>"; };
+		4C1807D31A8175FE008A75CF /* DocDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocDetailVC.swift; sourceTree = "<group>"; };
+		4C1807D51A82E3C7008A75CF /* DocTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocTableCell.xib; sourceTree = "<group>"; };
 		4C3E72E21A7AE3E900262D66 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		4C3E72E41A7B17F600262D66 /* SearchByNameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchByNameVC.swift; sourceTree = "<group>"; };
 		4C40ED181A7C344700F9B0B7 /* Doc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doc.swift; sourceTree = "<group>"; };
+		4C7A6B9C1A891B0400CB88B8 /* SpecialtyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialtyVC.swift; sourceTree = "<group>"; };
+		4C7A6B9E1A8922E800CB88B8 /* LocationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationVC.swift; path = ../LocationVC.swift; sourceTree = "<group>"; };
+		4C7A6BA01A8926A700CB88B8 /* ConditionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionVC.swift; sourceTree = "<group>"; };
+		4C88642B1A80093B00BA3D0C /* DocTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocTableCell.swift; sourceTree = "<group>"; };
+		4CC6690F1A8526FA00024823 /* FavVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,15 +101,22 @@
 		4C17657D1A798FD200B0E89E /* RefferingPhysicians */ = {
 			isa = PBXGroup;
 			children = (
+				4C17658A1A798FD300B0E89E /* Images.xcassets */,
 				4C1047A11A79CD0F0043BBE3 /* Launch Screen.xib */,
+				4C1807D51A82E3C7008A75CF /* DocTableCell.xib */,
+				4C1765871A798FD300B0E89E /* Main.storyboard */,
 				4C1765801A798FD200B0E89E /* AppDelegate.swift */,
-				4C1765851A798FD300B0E89E /* ViewController.swift */,
-				4C1047A31A79D6630043BBE3 /* MainViewController.swift */,
-				4C3E72E41A7B17F600262D66 /* SearchByNameVC.swift */,
 				4C3E72E21A7AE3E900262D66 /* SessionManager.swift */,
 				4C40ED181A7C344700F9B0B7 /* Doc.swift */,
-				4C1765871A798FD300B0E89E /* Main.storyboard */,
-				4C17658A1A798FD300B0E89E /* Images.xcassets */,
+				4C88642B1A80093B00BA3D0C /* DocTableCell.swift */,
+				4C1765851A798FD300B0E89E /* LogInVC.swift */,
+				4C1047A31A79D6630043BBE3 /* MainViewController.swift */,
+				4C3E72E41A7B17F600262D66 /* SearchByNameVC.swift */,
+				4C7A6B9E1A8922E800CB88B8 /* LocationVC.swift */,
+				4C7A6BA01A8926A700CB88B8 /* ConditionVC.swift */,
+				4CC6690F1A8526FA00024823 /* FavVC.swift */,
+				4C7A6B9C1A891B0400CB88B8 /* SpecialtyVC.swift */,
+				4C1807D31A8175FE008A75CF /* DocDetailVC.swift */,
 				4C1765821A798FD300B0E89E /* RefferingPhysicians.xcdatamodeld */,
 				4C17657E1A798FD200B0E89E /* Supporting Files */,
 			);
@@ -209,6 +230,7 @@
 			files = (
 				4C1765891A798FD300B0E89E /* Main.storyboard in Resources */,
 				4C17658B1A798FD300B0E89E /* Images.xcassets in Resources */,
+				4C1807D61A82E3C7008A75CF /* DocTableCell.xib in Resources */,
 				4C1047A21A79CD0F0043BBE3 /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,10 +249,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C1765861A798FD300B0E89E /* ViewController.swift in Sources */,
+				4C1765861A798FD300B0E89E /* LogInVC.swift in Sources */,
 				4C1765841A798FD300B0E89E /* RefferingPhysicians.xcdatamodeld in Sources */,
+				4C1807D41A8175FE008A75CF /* DocDetailVC.swift in Sources */,
 				4C40ED191A7C344700F9B0B7 /* Doc.swift in Sources */,
+				4C88642C1A80093B00BA3D0C /* DocTableCell.swift in Sources */,
+				4C7A6B9F1A8922E800CB88B8 /* LocationVC.swift in Sources */,
 				4C1765811A798FD200B0E89E /* AppDelegate.swift in Sources */,
+				4C7A6BA11A8926A700CB88B8 /* ConditionVC.swift in Sources */,
+				4C7A6B9D1A891B0400CB88B8 /* SpecialtyVC.swift in Sources */,
+				4CC669101A8526FA00024823 /* FavVC.swift in Sources */,
 				4C3E72E31A7AE3E900262D66 /* SessionManager.swift in Sources */,
 				4C1047A41A79D6630043BBE3 /* MainViewController.swift in Sources */,
 				4C3E72E51A7B17F600262D66 /* SearchByNameVC.swift in Sources */,
