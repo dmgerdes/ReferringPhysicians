@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BC39FC00-6B3D-4CB4-B18C-262CA55FBD11</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RefferingPhysicians</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F823E369CC817D552C2F801825C5E135832EB678</key>
+		<string>https://github.com/dmgerdes/ReferringPhysicians</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RefferingPhysicians.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F823E369CC817D552C2F801825C5E135832EB678</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dmgerdes/ReferringPhysicians</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F823E369CC817D552C2F801825C5E135832EB678</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F823E369CC817D552C2F801825C5E135832EB678</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RefferingPhysicians</string>
+		</dict>
+	</array>
+</dict>
+</plist>
